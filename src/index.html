@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Serena</title>
+</head>
+
+<body>
+	<header class="header" id='main'>
+		<div class="container">
+			<div class="header__top">
+				<div class="header__logo">
+					<div class="header__logo-img">
+					</div>
+					<ul class="header__logo-menu">
+						<li><a href="#main">Главная</a></li>
+						<li><a href="#cruise">О круизе</a></li>
+						<li><a href="#price">Стоимость</a></li>
+						<li><a href="#contact">Контакты</a></li>
+					</ul>
+					<div class="header__info-phone">
+						<p><img src="icons/phone.svg" alt="1">+38(562) 251 254</p>
+						<p><img src="icons/phone.svg" alt="2">+38(086) 101 200</p>
+					</div>
+				</div>
+				<div class="header__menu">
+					<input id="header__menu-toggle" type="checkbox" class="header__menu-toggle" />
+					<label class="header__menu-btn" for="header__menu-toggle">
+						<span></span>
+					</label>
+					<ul class="header__menu-burger">
+						<li><a href="#main">Главная</a></li>
+						<li><a href="#cruise">О круизе</a></li>
+						<li><a href="#price">Стоимость</a></li>
+						<li><a href="#contact">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="header__info">
+					<div class="header__info-title">
+						Семейный <span>круиз</span></br>
+						по <span>Черному</span> морю
+					</div>
+					<div class="header__info-text">
+						<h1>Насладитесь вашим круизом на борту современного лайнера
+							Rosa с его уютной атмосферой и комфортабельными каютами.</h1>
+					</div>
+					<button class="header__info-btn">Заказать звонок<img src="icons/phone-btn.svg" alt=""></button>
+					<div class="header__promo">
+						<img src="icons/oblako.png" alt="1">
+						<h1>Закажи ближайший тур и получи скидку 25%</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="awaits" id='cruise'>
+		<div class="container">
+			<div class="awaits__info-container">
+				<div class="awaits__info">
+					<div class="awaits__info-title">
+						<h1>Что вас ждет?</h1>
+						<p>Незабываемый семейный отдых для всей семьи</p>
+					</div>
+					<div class="awaits__info-text">
+						Наш круизный тур будет проходить по такому маршруту: Сочи — Новороссийск — Ялта — Севостополь —
+						Сочи.
+						Круиз по Черному морю – это уникальная возможность за короткий период увидеть самые известные
+						природные
+						достопримечательности Крыма и Кавказа. Вы совершите увлекательное путешествие, познакомитесь с
+						историей регионов, насладитесь солнцем и прекрасными морскими пейзажами. Круиз ориентирован на
+						семьи
+						с детьми и пенсионеров.
+
+					</div>
+				</div>
+				<div class="awaits__maps">
+					<img class="awaits__maps-img" src="#" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="gallery">
+		<div class="container">
+			<div class="gallery__title">Галерея</div>
+			<div class="gallery__slider" id="exemple">
+				<ul class="gallery__btn-up">
+					<li class='active' data-slide-to='0'></li>
+					<li data-slide-to='1'></li>
+					<li data-slide-to='2'></li>
+					<li data-slide-to='3'></li>
+					<li data-slide-to='4'></li>
+				</ul>
+				<div class="gallery__inner">
+
+					<div class="gallery__slides">
+						<div class="gallery__slide">
+							<img src="icons/slider/slide1.jpg" alt="">
+						</div>
+						<div class="gallery__slide">
+							<img src="icons/slider/slide2.jpg" alt="">
+						</div>
+						<div class="gallery__slide">
+							<img src="icons/slider/slide3.jpg" alt="">
+						</div>
+						<div class="gallery__slide">
+							<img src="icons/slider/slide4.jpg" alt="">
+						</div>
+						<div class="gallery__slide">
+							<img src="icons/slider/slide5.jpg" alt="">
+						</div>
+						<div class="gallery__slide">
+							<img src="icons/slider/slide1.jpg" alt="">
+						</div>
+						<div class="gallery__slide">
+							<img src="icons/slider/slide2.jpg" alt="">
+						</div>
+					</div>
+					<ul class="gallery__btn">
+						<li class='active' data-slide-to='0'></li>
+						<li data-slide-to='1'></li>
+						<li data-slide-to='2'></li>
+						<li data-slide-to='3'></li>
+						<li data-slide-to='4'></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="cruise" id='price'>
+		<div class="container">
+			<div class="cruise__title">
+				<h1>Сколько стоит круиз? </h1>
+			</div>
+			<div class="cruise__menu-container">
+				<div class="cruise__menu-rate">
+					<img src="icons/cruise.jpg" alt="">
+					<h1>Базовый тариф <span>25 000₽</span></h1>
+					<p>— проживание в каюте комфорт класса;</br>
+						— питание полный пансион;</br>
+						— капитанский ужин;</br>
+						— развлекательная программа на борту;</br>
+						— утренняя зарядка и оздоровительная
+						гимнастика;</br>
+						— интернет wi-fi на борту в общих зонах;</p>
+				</div>
+				<div class="cruise__menu-price">
+					<h1>Рассчитать стоимость</h1>
+					<div class="cruise__menu-price-container">
+						<div class="cruise__menu-price-l">
+							<h2>Дополнительные услуги</h2>
+							<p id='kaj'><img src="#" alt="" id='kaj'>каюта с видом</p>
+							<p id='tra'><img src="#" alt="" id='tra'>трансфер</p>
+							<p id='avia'><img src="#" alt="" id='avia'>авиабилеты</p>
+						</div>
+						<div class="cruise__menu-price-r">
+							<h2>Количество человек</h2>
+							<img class='cruise__menu-price-r-minus' src="icons/minus.svg" alt="">
+							<span>1</span>
+							<img class='cruise__menu-price-r-plus' src="icons/plus.svg" alt="">
+						</div>
+					</div>
+					<div class="cruise__menu-price-buy">
+						<h2>Всего: <span>32500 ₽</span></h2>
+						<p>* Для более попробной информации
+							закажите звонок от нашего оператора
+							и он вас проконсультирует. </p>
+					</div>
+					<button class="cruise__menu-price-btn">Заказать звонок
+						<img src="icons/phone-btn.svg" alt=""></button>
+				</div>
+				<div class="cruise__menu-slider" id="exemple1">
+					<div class="cruise__menu-slider-inner">
+						<div class="cruise__menu-slider-slides">
+							<div class="cruise__menu-slider-slide">
+								<img src="icons/slider2/slide1.jpg" alt="">
+								<img src="icons/slider2/slide2.jpg" alt="">
+								<img src="icons/slider2/slide3.jpg" alt="">
+							</div>
+							<div class="cruise__menu-slider-slide">
+								<img src="icons/slider2/slide2.jpg" alt="">
+								<img src="icons/slider2/slide1.jpg" alt="">
+								<img src="icons/slider2/slide3.jpg" alt="">
+
+							</div>
+							<div class="cruise__menu-slider-slide">
+								<img src="icons/slider2/slide3.jpg" alt="">
+								<img src="icons/slider2/slide1.jpg" alt="">
+								<img src="icons/slider2/slide2.jpg" alt="">
+							</div>
+							<div class="cruise__menu-slider-slide">
+								<img src="icons/slider2/slide2.jpg" alt="">
+								<img src="icons/slider2/slide3.jpg" alt="">
+								<img src="icons/slider2/slide1.jpg" alt="">
+							</div>
+						</div>
+						<ul class="cruise__menu-slider-btn">
+							<li class='active' data-slide-to='0'></li>
+							<li data-slide-to='1'></li>
+							<li data-slide-to='2'></li>
+							<li data-slide-to='3'></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="promo">
+		<div class="container">
+			<div class="promo__title">
+				<h1>Споймай свою волну скидок от
+					туристической компании Серенада!</h1>
+			</div>
+			<div class="promo__text">
+				<p>Наша компания дарит вам скидку 25 % при заказе тура на ближайшую дату. Ближайшая дата первого тура
+					24/08/2020. Успей
+					споймать удачу за хвост.</p>
+			</div>
+			<button class="promo__btn">Заказать тур со скидкой</button>
+		</div>
+	</section>
+	<section class="info" id='contact'>
+		<div class="container">
+			<div class="info__container">
+				<div class="info__address">
+					<div class="info__address-title">
+						<h1> Где нас найти и как связаться?</h1>
+					</div>
+					<div class="info__address-text">
+						<h2><img src="icons/nav.svg" alt="">г. Москва ул. Княжива 102, оф. 255</h2>
+						<p>(вход со стороны двора)</p>
+					</div>
+					<div class="info__address-days">
+						<h2><img src="icons/clock.svg" alt="">Пн-Сб 09:00 - 19:00 Вс - выходной</h2>
+						<p><img src="icons/phoneI.svg" alt="">+38(562) 251 254</p>
+						<p><img src="icons/phoneI.svg" alt="">+38(086) 101 200</p>
+					</div>
+					<div class="info__address-media">
+						<img src="icons/tw.svg" alt="">
+						<img src="icons/tel.svg" alt="">
+						<img src="icons/inst.svg" alt="">
+						<img src="icons/yt.svg" alt="">
+					</div>
+				</div>
+				<div class="info__form">
+					<div class="info__form-title">
+						<h1>Заполни форму и с тобой
+							свяжиться наш оператор</h1>
+					</div>
+					<input type="text" placeholder="Имя">
+					<input type="text" placeholder="Номер телефона">
+					<button class="info__form-btn">Заказать звонок <img src="icons/phone-btn.svg" alt=""></button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__container">
+				 <div class="footer__content-l">
+					<div class="footer__logo">
+						<img src="icons/logo.png" alt="">
+						<p>Скажи “ДА” своей мечте!</p>
+						<h2><img src="icons/phonef.svg" alt="">+38(562) 251 254</h2>
+						<h2><img src="icons/phonef.svg" alt="">+38(086) 101 200</h2>
+					</div>
+					<div class="footer__menu">
+						<li><a href="#main">Главная</a></li>
+						<li><a href="#cruise">О круизе</a></li>
+						<li><a href="#price">Стоимость</a></li>
+						<li><a href="#contact">Контакты</a></li>
+					</div>
+				 </div>
+				 <div class="footer__content-r">
+					 <div class="footer__helper">
+						<li>Что необходимо взять на отдых</li>
+						<li>Дополнительная информация</li>
+						<li>Другие круизы</li>
+						<li>Полезная информацмя о турах</li>
+					 </div>
+					 <div class="footer__media">
+						<h2>Присоиденяйтесь к нам!</h2>
+						<img src="icons/twf.svg" alt="">
+						<img src="icons/telf.svg" alt="">
+						<img src="icons/instf.svg" alt="">
+						<img src="icons/ytf.svg" alt="">
+						
+					 </div>
+				 </div>
+			</div>
+			<div class="footer__license">
+				<p>© Serenada 2020</p>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
